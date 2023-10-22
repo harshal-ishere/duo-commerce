@@ -1,0 +1,26 @@
+.login{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: .7rem;
+}
+.login-head{
+    padding: 1.5rem 6rem;
+    color:#808080 ;
+   
+}
+.login-body{
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+}
+.login-input{
+    background-color: white;
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.login-input input{
+    outline: none;
+}
+.nxt-btn{
+    width: 16.42rem;
+    background-color: rgb(12, 131, 31);
+    color: white;
+}

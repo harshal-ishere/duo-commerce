@@ -1,0 +1,38 @@
+.click-location{
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4.9rem;
+    left: -80rem;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 1rem;
+    background-color: white;
+    transition: 1sec ease;
+}
+.location-input button{
+    background-color: #0c831f;
+    border-radius: .4rem;
+    color: white;
+}
+.location-input p{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 4rem;
+}
+.location-input input{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: .4rem;
+    outline: none;
+    padding: .2rem;
+}
+.click-loc-vis{
+    position: absolute;
+    left: 6.5rem;
+}
+.click-loc-no-vis{
+    position: absolute;
+    left: -30rem;
+}
+.cancel-btn{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+#Cart{
+    z-index: 10;
+    height: 100vh;
+    background-color: whitesmoke;
+    width: 20rem;
+}
+.cart-vis{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.cart-un-vis{
+    position: absolute;
+    right: -20rem;
+    top: 0;
+}
+.cart-header{
+    background-color: white;
+}
